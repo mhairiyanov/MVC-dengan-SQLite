@@ -123,7 +123,6 @@ class ActivityViewData : ListActivity(), AdapterView.OnItemLongClickListener {
         this@ActivityViewData.finish()
         dataSource!!.close()
     }
-
     override fun onResume() {
         dataSource!!.open()
         super.onResume()
